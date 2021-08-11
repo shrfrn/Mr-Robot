@@ -1,0 +1,44 @@
+.edit-contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 160px;
+    max-width: 600px;
+    width: 50%;
+    height: 600px;
+    overflow: auto;
+
+    background-color: rgb(235, 235, 235);
+
+    border: 1px solid lightgray;
+    border-radius: 6px;
+
+    img {
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    input {
+        margin-left: 20px;
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        height: 1.5rem;
+    }
+    .action-btns {
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+
+        button {
+            background-color: #fff;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            margin-right: 20px;
+            height: 1.5rem;
+        }
+    }
+}

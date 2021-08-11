@@ -1,0 +1,16 @@
+.contact-preview a {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    gap: 6px;
+    // width: 200px;
+    padding: 6px 3px;
+    border-bottom: 1px solid lightgray;
+
+    img {
+        width: 32px;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        margin-right: 20px;
+    }
+}

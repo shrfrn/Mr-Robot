@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+
 import './App.css';
+import { MisterBitcoin } from './pages/MisterBitcoin.jsx';
+import { ContactDetails } from './pages/ContactDetails.jsx';
+import { EditContact } from './pages/EditContact';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <Router>
+            <main>
+                <Switch>
+                    <Route path="/contact/:id" component={ContactDetails} />
+                    <Route path="/edit/:id?" component={EditContact} />
+                    <Route path="/" component={MisterBitcoin} />
+                </Switch>
+            </main>
+        </Router>
+    )
 }
 
 export default App;
