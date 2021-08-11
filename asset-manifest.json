@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mr-Robot/static/css/main.4d77e556.chunk.css",
+    "main.js": "/Mr-Robot/static/js/main.c4833aa0.chunk.js",
+    "main.js.map": "/Mr-Robot/static/js/main.c4833aa0.chunk.js.map",
+    "runtime-main.js": "/Mr-Robot/static/js/runtime-main.faa95736.js",
+    "runtime-main.js.map": "/Mr-Robot/static/js/runtime-main.faa95736.js.map",
+    "static/js/2.dc072f93.chunk.js": "/Mr-Robot/static/js/2.dc072f93.chunk.js",
+    "static/js/2.dc072f93.chunk.js.map": "/Mr-Robot/static/js/2.dc072f93.chunk.js.map",
+    "static/js/3.72fa03d7.chunk.js": "/Mr-Robot/static/js/3.72fa03d7.chunk.js",
+    "static/js/3.72fa03d7.chunk.js.map": "/Mr-Robot/static/js/3.72fa03d7.chunk.js.map",
+    "index.html": "/Mr-Robot/index.html",
+    "static/css/main.4d77e556.chunk.css.map": "/Mr-Robot/static/css/main.4d77e556.chunk.css.map",
+    "static/js/2.dc072f93.chunk.js.LICENSE.txt": "/Mr-Robot/static/js/2.dc072f93.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faa95736.js",
+    "static/js/2.dc072f93.chunk.js",
+    "static/css/main.4d77e556.chunk.css",
+    "static/js/main.c4833aa0.chunk.js"
+  ]
+}
