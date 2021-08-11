@@ -61,7 +61,7 @@ class _EditContact extends Component {
                 </label>
                 <section className="action-btns">
                     <button onClick = { this.goBack } type="button">Back</button>
-                    <button onClick = { this.saveContact }>Save</button>
+                    <button onClick = { this.saveContact } type="submit">Save</button>
                 </section>
             </form>
         )
