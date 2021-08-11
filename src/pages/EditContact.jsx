@@ -48,7 +48,7 @@ class _EditContact extends Component {
         const { _id, name, email, phone } = contact
         const imgUrl = _id ? _id : "placeholder"
         return (
-            <form className="edit-contact">
+            <form onSubmit = { this.saveContact } className="edit-contact">
                 <img src={"http://robohash.org/placeholder/" + imgUrl} alt="" />
                 <label htmlFor = { name }>name:
                     <input value = { name } onChange={ this.handleChange } id="name" type="text" />
@@ -60,7 +60,7 @@ class _EditContact extends Component {
                     <input value = { phone } onChange={ this.handleChange } id="phone" type="text" />
                 </label>
                 <section className="action-btns">
-                    <button onClick = { this.goBack }>Back</button>
+                    <button onClick = { this.goBack } type="button">Back</button>
                     <button onClick = { this.saveContact }>Save</button>
                 </section>
             </form>
